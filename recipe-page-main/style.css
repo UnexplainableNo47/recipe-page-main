@@ -1,0 +1,77 @@
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 0.975rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #57524E;
+}
+.container{
+    background-color: #F3E5D8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;  
+}
+.main-panel{
+    background-color: #ffffff;
+    width: 560px;
+    height: fit-content;
+    padding: 40px 40px ;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+.hero{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.mini-info{
+    background-color: #FFF7FC;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color:#2E2D2C;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #8C5B4A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #52283B;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+ ul{
+    margin-left: 17px;
+ }
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
