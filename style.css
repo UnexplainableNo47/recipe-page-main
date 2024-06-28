@@ -30,7 +30,7 @@
     margin-bottom: 20px;
 }
 .mini-info{
-    background-color: #FFF7FC;
+    background-color: hsla(332, 51%, 32%, 0.11);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -40,6 +40,10 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 15px;
+    grid-column-gap: 0;
+}
+.grid-item{
+    border-bottom: 1px solid hsl(30, 18%, 87%)
 }
 h1{
     font-family: "Young Serif", serif;
@@ -70,8 +74,21 @@ h3{
 }
  ul{
     margin-left: 17px;
+    line-height: 1.7;
  }
 hr{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+@media only screen and (max-width: 400px) {
+    .main-panel{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 30;
+    }
+    .hero{
+        border-radius: 0;
+        top: 0;
+        overflow:auto;
+    }}
